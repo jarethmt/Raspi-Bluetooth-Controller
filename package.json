@@ -1,0 +1,15 @@
+{
+  "name": "bluetooth-controller",
+  "version": "1.0.0",
+  "description": "Runs bluetooth related functionality for our pi / speaker setup. Registers agents, manages connections, handles volume and connection feedback, etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thought Space Designs",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dbus-native": "^0.4.0",
+    "onoff": "^6.0.1"
+  }
+}
